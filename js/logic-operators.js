@@ -6,16 +6,19 @@
 //* && - запинается на лжи
 //* Если все операнды были истинными, возвращается последний.
 //* Если результат false, останавливается и возвращает исходное значение этого операнда.
-// const result = 4 && 0 && 'Hello!';
+
+// const result = 4 && 5 && 'Hello!';
 
 // console.log(result);
 
 //* || - запинается на правде
 //* Возвращает первое истинное значение или последнее, если такое значение не найдено.
 
-// const username = prompt('Your name?').trim() || 'Anonymus';
+// const name = prompt(`Write your name`);
 
-// console.log(`Hello ${username}`);
+// const result = name || 'Anonymous';
+
+// console.log(result);
 
 //* ! - инвертирует правду в ложь, а ложь в правду
 
@@ -31,7 +34,8 @@
 // console.log(true || false || 7);
 // console.log(null || 2 || undefined);
 // console.log((1 && null && 2) > 0);
-// console.log(null || (2 && 3) || 4);
+
+// console.log(null || 3|| 4);
 
 //? Преобразование типов
 // console.log(2 + 5 + '' + 1 + 0);

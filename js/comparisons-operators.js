@@ -11,6 +11,8 @@
  * undefined не равен ничему кроме себя и null.
  */
 
+// console.log(undefined == undefined);
+
 /*
  * Приведение различных типов к числу:
 
@@ -21,6 +23,8 @@
  * undefined --> 0
  */
 
+// console.log(true > false);
+
 //* Оператор меньше (<)
 // console.log(2 < 12);
 // console.log(12 < 2);
@@ -30,7 +34,7 @@
 // console.log('apple' < 'ananana');
 // console.log('bananana' < 'apple');
 // console.log(true < false);
-// console.log(false < true);
+// console.log(false < 1);
 
 //* Оператор больше (>)
 // console.log(10 > 20);
@@ -47,9 +51,9 @@
 // console.log(3 >= 4);
 
 //* Не строгое равно (==)
-// console.log(null > 0); //false
-// console.log(null == 0); //false
-// console.log(null >= 0); //true
+// console.log(null >= 0);
+// console.log(null == 0);
+// console.log(null > 0);
 
 // console.log(undefined == null);
 
